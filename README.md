@@ -37,10 +37,11 @@ To compile and install RethinkDB use the following commands:<br>
 <b>Note: if the make command fails, refer to <a href="https://github.com/rethinkdb/rethinkdb/issues/2193">this GitHub issue</a>.<br>
 
 To install the RethinkDB drivers, use the following commands:<br>
-<code>sudo npm install -g rethinkdbdash</code> for Node.js
+<code>sudo npm install -g rethinkdbdash</code> for Node.js<br>
 <code>sudo pip install rethinkdb</code> for Python
 
 This is a long process that can take up to several hours depending on versions and your hardware specs. Because of this, I opted to delegate as little functionality as possible to the Raspberry Pi nodes to reduce the number dependencies.
 
 bluetooth-node Setup
 ====================
+I used separate machines for each server, but this is not necessary. You can run the node server, database server, and web server from a single Raspberry Pi.
