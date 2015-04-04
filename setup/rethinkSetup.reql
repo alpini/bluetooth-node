@@ -1,3 +1,0 @@
-r.dbCreate('bluetooth_node')
-r.db('bluetooth_node').tableCreate('bluetooth_devices')
-r.db('bluetooth_node').tableCreate('bluetooth_connections')
