@@ -10,7 +10,7 @@ The purpose of this project is to track Bluetooth devices using <code>n</code> n
 Tools Used
 ==========
 <b>Hardware</b>: <a href="http://www.raspberrypi.org/products/raspberry-pi-2-model-b/">Raspberry Pi 2 Model B</a>, USB Wi-Fi adapter, USB Bluetooth adapter, 8GB SD card<br>
-<b>Software</b>: <a href="http://www.raspberrypi.org/help/noobs-setup/">Raspbian OS (NOOBS)</a>, <a href="https://nodejs.org/">Node.js (0.12.1)</a>, <a href="https://angularjs.org/">AngularJS (1.3.15), <a href="http://rethinkdb.com/">RethinkDB (1.16.3)</a>, <a href="http://expressjs.com/">Express (4.12.3)</a>, <a href="http://www.bluez.org/">BlueZ (4.x)</a>
+<b>Software</b>: <a href="http://www.raspberrypi.org/help/noobs-setup/">Raspbian OS (NOOBS)</a>, <a href="https://nodejs.org/">Node.js (0.12.1)</a>, <a href="https://angularjs.org/">AngularJS (1.3.15)</a>, <a href="http://rethinkdb.com/">RethinkDB (1.16.3)</a>, <a href="http://expressjs.com/">Express (4.12.3)</a>, <a href="http://www.bluez.org/">BlueZ (4.x)</a>
 
 Dependencies and Installation
 =============================
