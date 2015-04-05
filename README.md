@@ -1,17 +1,16 @@
-Credits
-=======
-<b>Implemented by</b>: <a href="https://github.com/exoentropy/">@exoentropy</a>, <a href="https://github.com/callentrail/">@callentrail</a><br>
-<b>Inspired by</b>: ConocoPhillips Innovation Challenge 2015
-
 Design
 ======
-The purpose of this project is to track Bluetooth devices using <code>n</code> number of Raspberry Pi nodes. Each node will scan for designated Bluetooth addresses and report back to a RethinkDB server and Node.js web server. The AngularJS web application allows users a means of tracking the real-time location information and device management.
+The purpose of this software is to track Bluetooth devices using <code>n</code> number of Raspberry Pi as sensor nodes. Each node scans for designated Bluetooth devices and reports back to a RethinkDB and Node.js web server. The AngularJS web application allows users to track real-time locations and handle device management. Functionality is offered in both Python (2.7) and JavaScript (Node.js runtime).
+
+Goals
+=====
+This is a passion project started at the end of March 2015 as a means of exploring various newer technologies like Node.js and RethinkDB, as well as experimenting with platform and data as a service. Today's software engineers must not only be able to quickly learn new frameworks and principles, but also be able to integrate them with one another. As such, this project aims to combine many different technologies into a single solution.
 
 Tools Used
 ==========
-<b>Hardware</b>: <a href="http://www.raspberrypi.org/products/raspberry-pi-2-model-b/">Raspberry Pi 2 Model B</a>, USB Wi-Fi adapter, USB Bluetooth adapter, 8GB SD card<br>
+<b>Hardware</b>: MacBook Pro, <a href="http://www.raspberrypi.org/products/raspberry-pi-2-model-b/">Raspberry Pi 2 Model B</a>, USB Wi-Fi adapter, USB Bluetooth adapter, 8GB SD card<br>
 <b>Software</b>: <a href="http://www.raspberrypi.org/help/noobs-setup/">Raspbian OS (NOOBS)</a>, <a href="https://nodejs.org/">Node.js (0.12.1)</a>, <a href="https://angularjs.org/">AngularJS (1.3.15)</a>, <a href="http://rethinkdb.com/">RethinkDB (1.16.3)</a>, <a href="http://expressjs.com/">Express (4.12.3)</a>, <a href="http://www.bluez.org/">BlueZ (4.x)</a><br>
-<b>Services</b>: Compose
+<b>Services</b>: <a href="http://www.compose.io">Compose</a>
 
 Dependencies and Installation
 =============================
@@ -50,3 +49,7 @@ On the machine to be used for the database server, start by running the command 
 
 <b>Remote Setup</b>:<br>
 This implementation uses a DaaS called <a href="http://compose.io">Compose</a> for remote RethinkDB hosting.
+
+Credits
+=======
+<b>Inspired by</b>: ConocoPhillips Innovation Challenge 2015
