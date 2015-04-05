@@ -1,11 +1,11 @@
 //Node.js version
 var rethinkdb = require('rethinkdb');
 
-//@to-do: update for dynamic host information
-var connection = null;
 //establish connection
 //callback: create bluetooth_node database
-rethinkdb.connect( {host: 'localhost', port: 28015}, function(err, conn) {
+//for Compose, ensure that startRemote.sh has already been executed
+var connection = null;
+rethinkdb.connect( {host: '127.0.0.2', port: 28015}, function(err, conn) {
     if (err) throw err;
     connection = conn;
     //create bluetooth_node database
