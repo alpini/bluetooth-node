@@ -48,7 +48,7 @@ RethinkDB Setup and Creating the Database
 On the machine to be used for the database server, start by running the command <code>rethinkdb</code> in the terminal. In a separate tab, navigate to the folder <code>~/bluetooth-node/setup</code>. For Node.js use the command <code>node setupRethink.js</code>, or for Python use the command <code>python setupRethink.py</code>. This creates a new database called <code>bluetooth_node</code> and the necessary tables. You can verify that the database and tables were created properly by navigating to <a href = "http://localhost:8080/#tables">http://localhost:8080/#tables</a> in your web browser while RethinkDB is running.
 
 <b>Remote Setup</b>:<br>
-This implementation uses a DaaS called <a href="http://compose.io">Compose</a> for remote RethinkDB hosting.
+This implementation uses a DaaS called <a href="http://compose.io">Compose</a> for remote RethinkDB hosting. To connect to the Compose RethinkDB, you must create an SSH tunnel. The SSH command to set up that tunnel is located on the Compose dashboard. However, before running that command you must create an SSH key for the machine trying to connect to the database and add it to a user.
 
 Credits
 =======
