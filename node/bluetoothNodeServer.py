@@ -8,6 +8,7 @@ from rethinkdb.errors import RqlRuntimeError, RqlDriverError
 
 databaseConnection = rethinkdb.connect(host='127.0.0.2', port=28015)
 devices = rethinkdb.db('bluetooth_node').table('bluetooth_devices').run(databaseConnection)
+#get initial session states
 #run indefinitely
 while (True):
     #pull fresh list of devices
