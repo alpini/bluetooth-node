@@ -34,7 +34,7 @@ To compile and install RethinkDB use the following commands:<br>
 <code>sudo make</code><br>
 <code>sudo make install</code><br>
 
-<b>Note: if the make command fails, refer to <a href="https://github.com/rethinkdb/rethinkdb/issues/2193">this GitHub issue</a>.<br>
+<b>Note: if the make command fails, refer to <a href="https://github.com/rethinkdb/rethinkdb/issues/2193">this GitHub issue</a>.</b><br>
 
 To install the RethinkDB drivers, use the following commands:<br>
 <code>sudo npm install -g rethinkdbdash</code> for Node.js<br>
